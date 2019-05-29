@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "watch": "nodemon .",
     "lint": "eslint",
     "test": "jest --verbose --coverage",
     "test-watch": "jest --watchAll --verbose --coverage"
@@ -20,5 +21,9 @@
     "method-override": "^3.0.0",
     "superagent": "^4.0.0-beta.5",
     "supertest": "^3.3.0"
+  },
+  "devDependencies": {
+    "express-swagger-generator": "^1.1.14",
+    "nodemon": "^1.19.1"
   }
 }
